@@ -182,7 +182,7 @@
         text = ''
           ${prelude}
 
-          sleep "''${DEBUG_SLEEP:-0}"
+          #sleep "''${DEBUG_SLEEP:-0}"
           ${entrypoint}
         '';
         meta = {
